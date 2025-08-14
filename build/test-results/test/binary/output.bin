@@ -1,0 +1,60 @@
+
+@wrongPassword
+�[1mScenario Outline:[22m Login with correct email and wrong password [90m# file:///C:/QA/FirstCucumberProject/src/test/resources/features/login.feature:26[39m
+�  [32mâœ”[39m [32m[1mGiven [22mUser launches Chrome browser[39m                        [90m# com.ilcarro.stepDefinitions.HomePageSteps.launch_browser()[39m
+�  [32mâœ”[39m [32m[1mWhen [22mUser opens Home Page[39m                                 [90m# com.ilcarro.stepDefinitions.HomePageSteps.open_HomePage()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser clicks on Login link[39m                             [90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Login_link()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser enters correct email and wrong password[39m          [90m# com.ilcarro.stepDefinitions.LoginSteps.enter_wrong_password(io.cucumber.datatable.DataTable)[39m
+*      | email               | password |
+*      | vchrommer@gmail.com | vc1234_& |
+�  [32mâœ”[39m [32m[1mAnd [22mUser clicks on Yalla button[39m                           [90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Yalla_button()[39m
+�  [32mâœ”[39m [32m[1mThen [22mUser verifies Error message is displayed[39m             [90m# com.ilcarro.stepDefinitions.LoginSteps.verify_Error_message()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser quites browser[39m                                   [90m# com.ilcarro.stepDefinitions.HomePageSteps.quit_browser()[39m
+
+@wrongPassword
+�[1mScenario Outline:[22m Login with correct email and wrong password [90m# file:///C:/QA/FirstCucumberProject/src/test/resources/features/login.feature:27[39m
+�  [32mâœ”[39m [32m[1mGiven [22mUser launches Chrome browser[39m                        [90m# com.ilcarro.stepDefinitions.HomePageSteps.launch_browser()[39m
+�  [32mâœ”[39m [32m[1mWhen [22mUser opens Home Page[39m                                 [90m# com.ilcarro.stepDefinitions.HomePageSteps.open_HomePage()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser clicks on Login link[39m                             [90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Login_link()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser enters correct email and wrong password[39m          [90m# com.ilcarro.stepDefinitions.LoginSteps.enter_wrong_password(io.cucumber.datatable.DataTable)[39m
+*      | email               | password |
+*      | vchrommer@gmail.com | VC1234_& |
+�  [32mâœ”[39m [32m[1mAnd [22mUser clicks on Yalla button[39m                           [90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Yalla_button()[39m
+�  [32mâœ”[39m [32m[1mThen [22mUser verifies Error message is displayed[39m             [90m# com.ilcarro.stepDefinitions.LoginSteps.verify_Error_message()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser quites browser[39m                                   [90m# com.ilcarro.stepDefinitions.HomePageSteps.quit_browser()[39m
+
+@wrongPassword
+�[1mScenario Outline:[22m Login with correct email and wrong password [90m# file:///C:/QA/FirstCucumberProject/src/test/resources/features/login.feature:28[39m
+�  [32mâœ”[39m [32m[1mGiven [22mUser launches Chrome browser[39m                        [90m# com.ilcarro.stepDefinitions.HomePageSteps.launch_browser()[39m
+�  [32mâœ”[39m [32m[1mWhen [22mUser opens Home Page[39m                                 [90m# com.ilcarro.stepDefinitions.HomePageSteps.open_HomePage()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser clicks on Login link[39m                             [90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Login_link()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser enters correct email and wrong password[39m          [90m# com.ilcarro.stepDefinitions.LoginSteps.enter_wrong_password(io.cucumber.datatable.DataTable)[39m
+*      | email               | password |
+*      | vchrommer@gmail.com | Vc1234-& |
+�  [32mâœ”[39m [32m[1mAnd [22mUser clicks on Yalla button[39m                           [90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Yalla_button()[39m
+�  [32mâœ”[39m [32m[1mThen [22mUser verifies Error message is displayed[39m             [90m# com.ilcarro.stepDefinitions.LoginSteps.verify_Error_message()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser quites browser[39m                                   [90m# com.ilcarro.stepDefinitions.HomePageSteps.quit_browser()[39m
+
+@wrongPassword
+�[1mScenario Outline:[22m Login with correct email and wrong password [90m# file:///C:/QA/FirstCucumberProject/src/test/resources/features/login.feature:29[39m
+�  [32mâœ”[39m [32m[1mGiven [22mUser launches Chrome browser[39m                        [90m# com.ilcarro.stepDefinitions.HomePageSteps.launch_browser()[39m
+�  [32mâœ”[39m [32m[1mWhen [22mUser opens Home Page[39m                                 [90m# com.ilcarro.stepDefinitions.HomePageSteps.open_HomePage()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser clicks on Login link[39m                             [90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Login_link()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser enters correct email and wrong password[39m          [90m# com.ilcarro.stepDefinitions.LoginSteps.enter_wrong_password(io.cucumber.datatable.DataTable)[39m
+*      | email               | password |
+*      | vchrommer@gmail.com | Vc1234_7 |
+�  [32mâœ”[39m [32m[1mAnd [22mUser clicks on Yalla button[39m                           [90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Yalla_button()[39m
+�  [32mâœ”[39m [32m[1mThen [22mUser verifies Error message is displayed[39m             [90m# com.ilcarro.stepDefinitions.LoginSteps.verify_Error_message()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser quites browser[39m                                   [90m# com.ilcarro.stepDefinitions.HomePageSteps.quit_browser()[39m
+
+@wrongPassword
+�[1mScenario Outline:[22m Login with correct email and wrong password [90m# file:///C:/QA/FirstCucumberProject/src/test/resources/features/login.feature:30[39m
+�  [32mâœ”[39m [32m[1mGiven [22mUser launches Chrome browser[39m                        [90m# com.ilcarro.stepDefinitions.HomePageSteps.launch_browser()[39m
+�  [32mâœ”[39m [32m[1mWhen [22mUser opens Home Page[39m                                 [90m# com.ilcarro.stepDefinitions.HomePageSteps.open_HomePage()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser clicks on Login link[39m                             [90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Login_link()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser enters correct email and wrong password[39m          [90m# com.ilcarro.stepDefinitions.LoginSteps.enter_wrong_password(io.cucumber.datatable.DataTable)[39m
+*      | email               | password |
+1      | vchrommer@gmail.com | ÐœÑ�1234_& |
+�  [32mâœ”[39m [32m[1mAnd [22mUser clicks on Yalla button[39m                           [90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Yalla_button()[39m
+�  [32mâœ”[39m [32m[1mThen [22mUser verifies Error message is displayed[39m             [90m# com.ilcarro.stepDefinitions.LoginSteps.verify_Error_message()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser quites browser[39m                                   [90m# com.ilcarro.stepDefinitions.HomePageSteps.quit_browser()[39m
